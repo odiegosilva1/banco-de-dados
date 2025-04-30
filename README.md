@@ -1,3 +1,1 @@
-# PostgreSQL
-
-Repositório de estudo de banco de dados.
+# Banco de Dados 🎲
