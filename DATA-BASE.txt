@@ -1,0 +1,21 @@
+-- Remove tabela
+DROP TABLE Modelo;
+-- Cria tabela
+CREATE TABLE Modelo (
+    id_modelo NUMBER,
+    nome VARCHAR2(50),
+    num_lugares NUMBER,
+    autonomia NUMBER,
+    PRIMARY KEY (id_modelo)
+);
+
+-- Remove tabela
+DROP TABLE Aviao;
+-- Cria tabela
+CREATE TABLE Aviao (
+    matricula VARCHAR2(20),
+    id_modelo NUMBER,
+    PRIMARY KEY (matricula),
+    CONSTRAINT fk_modelo_id_modelo FOREIGN KEY (id_modelo) REFERENCES Modelo (id_modelo)
+);
+
