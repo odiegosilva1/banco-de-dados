@@ -1,6 +1,5 @@
-# Banco de Dados 🎲
 
-# Estudos: SQLite3 e Python
+# Estudos: SQLite3 e Python 🎲
 
 Um repositório para armazenar meus estudos e exemplos práticos sobre como trabalhar com SQLite3 em Python.
 
